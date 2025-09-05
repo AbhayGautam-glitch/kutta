@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Admission Form of AMU University</title>
+<link rel="stylesheet" href="style.css">
+<style>
+button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+</style>
+</head>
+<body>
+<h1>Aligarh Muslim University (AMU)</h1>
+<h4>Aligarh, Uttar Pradesh (202002)</h4>
+<h2>Admission Application Form</h2>
+<h4>(Session 2025-26)</h4>
+
+<form action="https://formspree.io/f/xnnbovej" method="post">
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name" required><br><br>
+
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name" required><br><br>
+
+<label for="mobile_no">Mobile No:</label>
+<input type="tel" id="mobile_no" name="mobile_no" pattern="[0-9]{10}" required><br><br>
+
+<label for="alternate_mobile">Alternate Mobile No:</label>
+<input type="tel" id="alternate_mobile" name="alternate_mobile" pattern="[0-9]{10}"><br><br>
+
+<label for="candidate_photo">Candidate Photo:</label>
+<input type="file" id="candidate_photo" name="candidate_photo" accept="image/*"><br><br>
+
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob" required><br><br>
+
+<label>Gender:</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br><br>
+
+<label for="father_name">Father's Name:</label>
+<input type="text" id="father_name" name="father_name" required><br><br>
+
+<label for="mother_name">Mother's Name:</label>
+<input type="text" id="mother_name" name="mother_name" required><br><br>
+
+<label for="rank_number">Rank Number:</label>
+<input type="number" id="rank_number" name="rank_number"><br><br>
+
+<label for="url">Website URL:</label>
+<input type="url" id="url" name="url"><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+
+<label for="corresponding_address">Corresponding Address:</label><br>
+<textarea rows="3" cols="30" id="corresponding_address" name="corresponding_address">Enter address here...</textarea><br><br>
+
+<label for="permanent_address">Permanent Address:</label><br>
+<textarea rows="3" cols="30" id="permanent_address" name="permanent_address">Enter address here...</textarea><br><br>
+
+<label for="class">Class:</label>
+<select id="class" name="class">
+    <option value="I">I</option>
+    <option value="VI">VI</option>
+    <option value="IX">IX</option>
+    <option value="XI" selected>XI</option>
+</select>
+
+<button type="submit">SUBMIT</button> </div>
+</form>
+</body>
+</html>
